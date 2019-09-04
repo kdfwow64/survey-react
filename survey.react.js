@@ -16845,7 +16845,7 @@ var SurveyNavigation = /** @class */ (function (_super) {
         if(text === "continue") {
             var iTag = (__WEBPACK_IMPORTED_MODULE_1_react__["createElement"]("i", { className: "fa fa-chevron-right"}));
             var span = (__WEBPACK_IMPORTED_MODULE_1_react__["createElement"]("span", { className: " continue-page-span"}), "Continue ");
-            return (__WEBPACK_IMPORTED_MODULE_1_react__["createElement"]("div", { className: " continue-page-div", onMouseDown: mouseDown, onClick: click }, span, iTag));
+            return (__WEBPACK_IMPORTED_MODULE_1_react__["createElement"]("div", { className: " continue-page-div", onMouseDown: mouseDown, onClick: click }, span));
         }
         return (__WEBPACK_IMPORTED_MODULE_1_react__["createElement"]("input", { className: className, style: style, type: "button", onMouseDown: mouseDown, onClick: click, value: text }));
     };
@@ -20150,7 +20150,7 @@ var defaultBootstrapCss = {
     header: "panel-heading card-header",
     body: "panel-body card-block mt-4",
     bodyEmpty: "panel-body card-block mt-4 sv_body_empty",
-    footer: "panel-footer card-footer",
+    footer: "panel-footer card-footer mirror-effect-footer",
     navigationButton: "",
     completedPage: "",
     navigation: {
