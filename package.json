@@ -1,0 +1,60 @@
+{
+  "_from": "survey-react@latest",
+  "_id": "survey-react@1.1.7",
+  "_inBundle": false,
+  "_integrity": "sha512-q+a0ZW2HWcjru+tjk7v7jibOtlVP47xxRjpmvUkyfgaKWtaI5UtVPRGtEXMBMY3V8Sxy8xnhznhdDBPHeecGFg==",
+  "_location": "/survey-react",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "survey-react@latest",
+    "name": "survey-react",
+    "escapedName": "survey-react",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/survey-react/-/survey-react-1.1.7.tgz",
+  "_shasum": "b37538d222aa64779ba2456f414639c25e2559a7",
+  "_spec": "survey-react@latest",
+  "_where": "/home/phantom/work/surveyjs_modify",
+  "bugs": {
+    "url": "https://github.com/surveyjs/surveyjs/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "survey.js is a JavaScript Survey Library. It is a modern way to add a survey to your website. It uses JSON for survey metadata and results.",
+  "files": [
+    "survey.css",
+    "survey.min.css",
+    "survey.react.d.ts",
+    "survey.react.js",
+    "survey.react.min.js"
+  ],
+  "homepage": "https://surveyjs.io/",
+  "keywords": [
+    "Survey",
+    "JavaScript",
+    "Bootstrap",
+    "Library",
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "main": "survey.react.js",
+  "name": "survey-react",
+  "peerDependencies": {
+    "react": ">=15.0.1 || ^16.2.0",
+    "react-dom": ">=15.0.1 || ^16.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surveyjs/surveyjs.git"
+  },
+  "typings": "survey.react.d.ts",
+  "version": "1.1.7"
+}
